@@ -462,15 +462,18 @@ footer i {
     width: 100%;
   }
 
-  /* TESTIMONIALS SECTION  */
+  /* TESTIMONIALS & PRICING SECTION  */
   .testimonials .testimonials-heading {
     max-width: 100%;
     text-align: center;
   }
 
-  .testimonials .testimonials-grid {
+  .testimonials .testimonials-grid,
+  .pricing .pricing-grid {
     grid-template-columns: 1fr;
   }
+
+  /* FOOTER SECTION  */
 
   /* TEXT CLASSES */
   .text-xl {
