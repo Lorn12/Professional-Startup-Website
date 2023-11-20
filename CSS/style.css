@@ -460,6 +460,19 @@ footer i {
     display: block;
     width: 100%;
   }
+
+  /* TEXT CLASSES */
+  .text-xl {
+    font-size: 1.9rem;
+  }
+
+  .text-lg {
+    font-size: 1.5rem;
+  }
+
+  .text-md {
+    font-size: 1.1rem;
+  }
 }
 
 @media (max-width: 500px) {
