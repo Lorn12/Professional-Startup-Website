@@ -16,6 +16,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   background: #fff;
+  overflow-x: hidden;
 }
 
 a {
@@ -459,6 +460,16 @@ footer i {
     margin-bottom: 10px;
     display: block;
     width: 100%;
+  }
+
+  /* TESTIMONIALS SECTION  */
+  .testimonials .testimonials-heading {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .testimonials .testimonials-grid {
+    grid-template-columns: 1fr;
   }
 
   /* TEXT CLASSES */
