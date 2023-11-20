@@ -462,18 +462,26 @@ footer i {
     width: 100%;
   }
 
-  /* TESTIMONIALS & PRICING SECTION  */
+  /* TESTIMONIALS & PRICING SECTION & FOOTER SECTION */
   .testimonials .testimonials-heading {
     max-width: 100%;
     text-align: center;
   }
 
   .testimonials .testimonials-grid,
-  .pricing .pricing-grid {
+  .pricing .pricing-grid,
+  .footer .footer-grid {
     grid-template-columns: 1fr;
   }
 
-  /* FOOTER SECTION  */
+  .footer .card {
+    margin-right: 0;
+  }
+
+  .footer .footer-grid > div,
+  .footer small {
+    text-align: center;
+  }
 
   /* TEXT CLASSES */
   .text-xl {
